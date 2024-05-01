@@ -1,0 +1,14 @@
+.yes {
+    color: hsl(60, 100%, 75%);
+    background-color: #80008099; 
+    font-weight: bold;
+}
+
+.no {
+    background-color: hsla(0, 100%, 25%, 0.5);
+}
+
+.no, .yes {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
