@@ -3,7 +3,6 @@
 html, body {
   height: 100%;
 }
-
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,6 +19,16 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 8px 16px;
+  margin: 8px;
+  display: flex;
+}
+.content{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 6px; 
+  margin: 10px 0px;
 }
 
 .icon {
@@ -33,6 +42,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 8px 16px 8px 0px;
+  flex: 0 0 auto;
+}
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .close-button {
@@ -66,4 +84,15 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+.bottom-row > button {
+  margin-top: 8px; 
+}
+.button-row {
+  margin-top: 20px;
+}
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
